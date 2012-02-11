@@ -1,0 +1,4 @@
+{
+	"name": "jsdicom",
+	"main": "./lib/dicom.js"
+}
