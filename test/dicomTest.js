@@ -1,7 +1,9 @@
 var assert = require('assert');
+var dicom = require('../');
 
 describe("readFile", function() {
     it("shoud read without error", function() {
-        assert(true, false, "read failed");
+    	dicom.readFile("./data/dcm")
+       assert.ok(true, "OK");
     });
 });
